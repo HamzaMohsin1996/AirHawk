@@ -1,0 +1,489 @@
+/**** Main CSS ****/
+
+body {
+	margin: 0;
+	width: 100%;
+	box-sizing: border-box;
+	color: white;
+}
+
+ol,
+ul,
+li {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+
+/*img {
+	max-width: 100%;
+}*/
+
+footer {
+	background-color: #df132f;
+}
+
+li {
+	padding-top: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: black;
+}
+
+
+/*a:hover {
+	color: red;
+	text-decoration: none;
+}*/
+
+.box {
+	background-color: black;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: white;
+}
+
+header {
+	background-image: url(../images/header.jpg);
+	width: 100%;
+	height: 630px;
+}
+
+.header-content li a {
+	color: white;
+}
+
+.navitem li a {
+	color: white;
+}
+
+.airhawk-nav .navbar {
+	background-color: transparent;
+	border: none;
+}
+
+.head-color {
+	color: white;
+}
+
+.header-content {
+	float: right;
+	color: #c7ccd1;
+}
+
+.header-content li a {
+	padding-right: 10px;
+}
+
+.appointment p {
+	padding-top: 20px;
+	width: 47%;
+	margin: 0 auto;
+}
+
+.appointment button {
+	margin-top: 20px;
+}
+
+.heading {
+	position: relative;
+}
+
+.appointment {
+	/*	text-align: center;
+	width: 80%;
+	padding-top: 50px;
+	/*display: inline-block;*/
+	/*margin: 0 auto;*/
+	padding-top: 15%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 25%;
+	text-align: center;
+	/*transform: translate(0,-50%);*/
+}
+.button-bottom{
+	display: block;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.about-us {
+	padding-top: 20px;
+	background-image: url(../images/A2.png);
+	width: 100%;
+	height: 364px;
+}
+
+.font-check {
+	max-width: 60%;
+	color: #abacad;
+}
+
+.content img {
+	max-width: 100%;
+	float: right;
+}
+
+.text-color {
+	color: #538cbb;
+}
+
+.background-image {
+	background-image: url(../images/Areas.jpg);
+	width: 100%;
+	height: 850px;
+}
+
+.Customer {
+	padding-top: 20px;
+}
+
+.padding-0 {
+	max-height: 200px;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.image-hover {
+	height: 200px;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.image {
+	opacity: 1;
+	display: block;
+	max-width: 100%;
+	height: 100%;
+	width: 100%;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+
+
+/*.react{
+	position: relative;
+}*/
+
+a:hover .middle {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	left: 0;
+	/*transform: translateY(-50%);*/
+	text-align: center;
+}
+
+.image-hover:hover .image {
+	opacity: 0.2;
+	background-color: black;
+}
+
+a:hover .middle {
+	opacity: 1;
+	/*background-color: black;*/
+}
+
+.text {
+	/*background-color: #4CAF50;*/
+	color: white;
+	font-size: 16px;
+	padding: 16px 32px;
+}
+
+.padding-0 a {
+	display: block;
+}
+
+
+/*.img-tip{
+	position: relative;
+}*/
+
+.tooltip-image {
+	vertical-align: middle;
+	margin-left: 260px;
+	margin-top: 200px;
+	height: 50px;
+	width: 50px;
+}
+
+.details {
+	display: inline-block;
+}
+
+.icon {
+	color: blue;
+	float: left;
+}
+.pic{
+	display: inline-block;
+}
+.Services{
+	color: white;
+	padding-top:10px;
+}
+
+.Company-benefits{
+	background-image: url(../images/services.bg.jpg);
+	max-width: 100%;
+	height: 610px;
+
+}
+
+.align{
+	text-align: center;
+}
+.padding-1{
+	padding-top: 100px;
+}
+
+.testimonial-content{
+	padding-top: 15%;
+	padding-left: 15%;
+}
+
+
+.toolbutton{
+	 margin:auto;
+  background: #3498db;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+[tooltip]{
+  margin:20px;
+  position:relative;
+}
+[tooltip]::before {
+    content: "";
+    position: absolute;
+    top: -83px;
+    left: 9%;
+    transform: translateX(300%);
+    border-width: 8px 8px 10px;
+    border-style: solid;
+    border-color: rgba(0,0,0,0.7) transparent transparent transparent;
+    z-index: 100;
+}
+[tooltip]::after {
+    content: attr(tooltip);
+    position: absolute;
+        left: 2%;
+    top: 82px;
+    transform: translateX(7%) translateY(-209%);
+    background: white;
+    text-align: center;
+    color: black;
+    width: 400px;
+    padding: 50px 73px;
+    font-size: 12px;
+    border: 1px solid blue;
+    width: 700px;
+    border-radius: 5px;
+    pointer-events: none;
+}
+
+.our-benefits{
+	margin-top: 100px;
+}
+
+.our-benefits li {
+	text-align: center;
+	/*display: inline-block;*/
+	/*margin-top: 100px;*/
+	/*margin: 0 auto;*/
+	/*padding-top: 70px;*/
+	min-height: 185px;
+	/*padding-right: 10px;*/
+	width: calc(100% / 5);
+	float: left;
+}
+
+.our-benefits li a img {
+	/*display: inline-block;*/
+	margin: 0 auto;
+	margin-bottom: 15px;
+	max-width: 100%;
+	width: auto !important;
+}
+
+.our-benefits li a span {
+	display: block;
+}
+.list-style {
+	color: white;
+    list-style-type: none;
+}
+
+
+/* Iframe padding */
+.padding-3 {
+	text-align: center;
+	padding: 20px;
+}
+.padding-3 iframe{
+	width:860px;
+	height: 315px;
+}
+
+/***** Contact Us ******/
+.contact-us{
+	background-image: url(../images/contact.png);
+	width: 100%;
+	height: 225px;
+}
+.memberships {
+	padding: 40px;
+}
+.memberships li {
+	display: inline-block;
+	text-align: center;
+	/*margin-top: 55px;*/
+	/*min-height: 90px;*/
+	float: left;
+	width: calc(100% / 8);
+
+}
+.footer-content{
+	background-color: #f5f5f5;
+	height: 445px;
+}
+.footer-headings{
+	color: black;
+	margin-top: 55px;
+}
+.footer-content li a{
+	color: #a4a4a4;
+	text-decoration: none;
+}
+.content-side{
+	padding-left: 0px;
+}
+.location{
+	color: #a4a4a4;
+	padding-top: 10px;
+	font-size: 11px;
+}
+.padding-4{
+	outline: 1px solid black;
+    padding: 20px;
+}
+.Availability{
+	color: #a4a4a4;
+}
+.payment-methods{
+	    padding-left: 86px;
+    padding-top: 55px;
+    text-align: center;
+}
+.pay{
+	color:  #a4a4a4;
+	padding-top: 30px;
+	text-align: left;
+}
+.pay-cash li{
+	padding-top: 15px;
+	padding-right: 10px;
+	float: left;
+	display: inline-block;
+}
+.padding-5{
+	margin-top: 20px;
+}
+.padding-6{
+	padding-top: 20px;
+	float: right;
+	color: #c7ccd1;
+}
+.padding-6 li a {
+	padding-right: 10px;
+}
+@media only screen and (max-width: 991px){
+
+	.header-1{
+		display: none;
+	}
+	.logo-img{
+		padding-top: 13px;
+	}
+	.logo-img img {
+    width: 147px;
+    height: 42px;
+
+	}
+
+	.navitem{
+		    margin-right: -48px;
+		    font-size: 12px;
+	}
+	.padding-3 iframe{
+		width:550px;
+		height: 300px;
+	}
+} 
+@media only screen and (max-width: 767px){
+	.padding-3 iframe{
+		width:450px;
+		height: 220px;
+		margin-top: 20px;
+	}
+	.nav-back{
+		background-color:  #848484;
+		    position: absolute;
+		    z-index: 100;
+		    top: 75%;
+    left: 0;
+    right: 0;
+	}
+	.appointment{
+		padding-top: 0px;
+		/*font-size: 30px;*/
+	}
+	.appointnment h1{
+		font-size: 20px;
+	}
+	.appointment button {
+    margin-top: 10px;
+}
+.appointment p  {
+	padding-top: 7px;
+	width: 65%;
+}
+.content img {
+	height: 235px;
+}
+.about-us {
+	height: 285px;
+}
+.font-check h1 {
+	font-size: 21px;
+}
+.head-content{
+	font-size: 12px;
+}
+.service-heading{
+	font-size: 16px;
+}
+} 
+@media only screen and (max-width: 480px){
+	.padding-3 iframe{
+		width:350px;
+		height: 150px;
+		margin-top: 20px;
+	}
+	
+} 
